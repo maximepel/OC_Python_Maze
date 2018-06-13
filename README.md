@@ -10,4 +10,6 @@ J'ai changé les caractères par rapport à ce qui était demandé dans l'exerci
 Ainsi les murs sont des "█", les portes des "░", la sortie est un "♥", son propre robot est "☻" et les ennemis sont des "☺".
 J'ai fait en sorte que le programme puisse tout de même parser des fichiers texte basiques pour creer ses propres cartes personnalisées en utilisant les caractères d'origine de l'exercice.
 
+Il y a également deux nouvelles commandes possibles : M et P pour creer une porte sur un mur ou un mur sur une porte.
+
 ![Image du jeu réalisé en mode console](https://i.gyazo.com/3a9689cfbcaa4addee83c674e9cdce88.png)
