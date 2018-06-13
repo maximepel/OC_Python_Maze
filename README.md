@@ -17,5 +17,7 @@ OOOOOOOOOOOO
 => Les . étant des portes
 => Les commandes sont S N E O (Sur Nord Est, Ouest)
 
-# Classes :
-- A
+# Modification du visuel :
+J'ai changé les caractères par rapport à ce qui était demandé dans l'exercice.
+Ainsi les murs sont des "█", les portes des "░", la sortie est un "♥", son propre robot est "☻" et les ennemis sont des "☺".
+J'ai fait en sorte que le programme puisse tout de même parser des fichiers texte basiques pour creer ses propres cartes personnalisées en utilisant les caractères d'origine de l'exercice.
