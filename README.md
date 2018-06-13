@@ -1,6 +1,6 @@
 ## OC_Python_Maze
 Ceci est un exercice en python du cours openclassrooms. Il s'agissait de créer un ensemble Server-Client permettant de jouer à faire parcourir un labyrinthe à un robot.
-Le jeu est très conceptuel et n'est présenté qu'en mode console pour l'instant car en faire une interface graphique serait un projet trop ambitieux pour le moment.
+Le jeu est très conceptuel et n'est présenté qu'en mode console pour l'instant car en faire une interface graphique serait un projet trop ambitieux pour le moment et pour ce que c'est.
 
 # Exemple :
 ![Image du jeu attendu en mode console](https://i.gyazo.com/83e1fca6a0cc9d02da29970c770fe4ff.png)
