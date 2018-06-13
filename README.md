@@ -1,14 +1,21 @@
 ## OC_Python_Maze
-Script python permettant de générer un graph à partir de données JSON extraites de l'API "Réseau social virtuel" PPLAPI
-Purement, il affiche la moyenne du degré d'agréabilité(y) des zones en fonction de la densité de population(x). Techniquement pour évaluer l'idée que : plus il y a d'individus dans une zone, plus il y a une tendance à avoir un degré d'agréabilité moyen (0).
+Ceci est un exercice en python du cours openclassrooms. Il s'agissait de créer un ensemble Server-Client permettant de jouer à faire parcourir un labyrinthe à un robot.
+Le jeu est très conceptuel et n'est présenté qu'en mode console pour l'instant car en faire une interface graphique serait un projet trop ambitieux pour le moment.
 
-# Fichiers présents :
-> - agents-100k.json => Contient un extrait de la base de données de pplapi.com (100.000 objets)
-> - Le script download_agents.py permet de parser le JSON
-> - model.py contient le "programme" et les classes nécessaires
+# Exemple :
+OOOOOOOOOOOO
+O O x   O  O
+O OO.OOOOx O
+O O   .    O
+O O   O O  O
+O O OOOOOO.O
+O X  O     O
+OOOOOOOOOOOO
+=> Le X étant votre joueur, les petits x ceux des autres joueurs
+=> Les O étant les murs
+=> Le U étant la sortie à atteindre
+=> Les . étant des portes
+=> Les commandes sont S N E O (Sur Nord Est, Ouest)
 
 # Classes :
-- Agent : représente les individus recueillis (100.000 instances)
-- Position : représente la position d'un individu sur la Terre (latitude et longitude appliquées à l'échelle de la Terre)
-- Zone : classe essentiellement statique qui représente la Terre (une zone de petites zones)
-- BaseGraph & AgreeabiliteGraph : pour la représentation visuelle 
+- A
